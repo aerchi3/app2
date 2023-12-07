@@ -31,7 +31,7 @@ class BuildCard extends StatelessWidget {
           borderRadius: BorderRadius.circular(24),
         ),
         width: screenHeight * 0.8, // Adjust width if needed
-        height: screenHeight * 0.4, // Adjust height if needed
+        height: screenHeight * 0.5, // Adjust height if needed
         child: Expanded(
           child: Padding(
             padding: const EdgeInsets.all(12.0),
@@ -93,7 +93,7 @@ class InfoWidget extends StatelessWidget {
             fontWeight: FontWeight.bold,
           ),
         ),
-        const SizedBox(height: 8),
+        const SizedBox(height: 14),
         Center(
           child: Row(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -111,7 +111,7 @@ class InfoWidget extends StatelessWidget {
             ],
           ),
         ),
-        const SizedBox(height: 8),
+        const SizedBox(height: 12),
         Center(
           child: Row(
             mainAxisAlignment: MainAxisAlignment.center,
